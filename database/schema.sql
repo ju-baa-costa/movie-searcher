@@ -1,0 +1,5 @@
+CREATE TABLE ratings (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    movie_id INTEGER NOT NULL,
+    rating INTEGER NOT NULL
+);
